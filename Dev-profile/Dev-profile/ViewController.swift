@@ -10,8 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var devLogo: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        devLogo.layer.cornerRadius = 8.0
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 
